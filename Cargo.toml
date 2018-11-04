@@ -1,7 +1,10 @@
 [package]
 name = "bch"
 version = "0.1.0"
+description = "A Rust library for working with Bitcoin Cash"
+repository = "https://github.com/brentongunning/rust-bch"
 authors = ["Brenton Gunning <brentongunning@gmail.com>"]
+license = "MIT"
 
 [dependencies]
 byteorder = "1.2"
