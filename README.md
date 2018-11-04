@@ -2,6 +2,8 @@
 
 A fresh library to build Bitcoin Cash applications in Rust.
 
+[Documentation](https://docs.rs/bch/)
+
 Features
 
 * P2P protocol messages (construction and serialization)
@@ -12,6 +14,10 @@ Features
 * Wallet key derivation and mnemonic parsing
 * Mainnet and testnet support
 * Various Bitcoin primitives
+
+# Installation
+
+Add ```bch = "0.1.0"``` to Cargo.toml
 
 # Requirements
 
