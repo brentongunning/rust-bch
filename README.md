@@ -1,8 +1,11 @@
 # Rust-BCH
 
-A fresh library to build Bitcoin Cash applications in Rust.
+A library to build Bitcoin Cash (BCH) applications in Rust.
 
 [Documentation](https://docs.rs/bch/)
+
+**Author's Note**: Going forward, I will be focusing my efforts on Bitcoin SV and [rust-sv](https://github.com/brentongunning/rust-sv) for reasons that are best stated by [unwriter](https://medium.com/@_unwriter/the-resolution-of-the-bitcoin-cash-experiment-52b86d8cd187). I will not be actively developing this library, however patches are still welcome.
+
 
 Features
 
@@ -14,6 +17,8 @@ Features
 * Wallet key derivation and mnemonic parsing
 * Mainnet and testnet support
 * Various Bitcoin primitives
+
+*Not Included*: OP_CHECKDATASIG, CTOR validation
 
 # Installation
 
@@ -36,10 +41,6 @@ This library should not be used for consensus code because its validation checks
 *parity-bitcoin* - The parity Bitcoin client is a full node in Rust. Its code is more full-featured and also more complex.
 
 *bitcrust* - The bitcrust project is strong in some areas and lacking in others. The two projects could be used together.
-
-# Support for the November 2018 hard fork
-
-This library supports the SV implementation of Bitcoin Cash. It includes the new opcodes OP_MUL, OP_RSHIFT, OP_LSHIFT, and OP_INVERT and the increased script op limit. CDS and CTOR validation are not supported.
 
 # License
 
